@@ -66,7 +66,7 @@ const config = {
         sourceMapFilename: `[name].${minimize ? 'min' : 'js'}.map`
     },
     performance: {
-        hints: minimize ? 'error' : false,
+        hints: minimize ? 'warning' : false,
         maxAssetSize: 750 * 1024,
         maxEntrypointSize: 750 * 1024
     },
